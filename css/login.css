@@ -1,7 +1,7 @@
 html, body {
     font-family: sans-serif;
-    margin: 0;
-    padding: 0;
+    margin: 50px;
+    padding: 0px 15px;
     height: 100%;
     display: flex;
     justify-content: center;
@@ -42,7 +42,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: right;
+    text-align: center;
 }
 
 .logincont form {
@@ -79,8 +79,8 @@ html, body {
 
 .info img {
     width: 100%;
-    width: 900px;
-    height: 650px;
+    max-width: 900px;
+    height: auto;
     margin-bottom: 20px;
     object-fit: contain;
     display: block;

@@ -6,7 +6,7 @@ body {
 }
 
 .contenido {
-    background-color: #88DB56 ;
+    background-color: #8BDB56 ;
     padding: 0 0;
     text-align: center;
 }
@@ -32,7 +32,7 @@ body {
     border: 2px solid #C3DB56;
     margin: 0;
     padding: 0;
-    text-align: center;
+    text-align: right;
 }
 
 .navegacion li {
@@ -52,6 +52,7 @@ body {
 .navegacion img {
     width: 70px;
     height: 70px;
+    align-items:right ;
 }
 
 .contenido1 {
@@ -60,22 +61,6 @@ body {
     text-align: right;
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 footer i{
     font-size: 2rem;
