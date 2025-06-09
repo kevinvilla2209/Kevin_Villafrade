@@ -1,0 +1,91 @@
+html, body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contenido1 {
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: 0;
+    align-items: stretch;
+    gap: 40;
+}
+
+.contenido1 > div {
+    flex: 1;
+    min-width: 300px;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.logincont {
+    background-color:#C3DB56;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 5px 12px;
+    gap: 15px;
+}
+
+.info{
+    background-color: #88DB56;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: right;
+}
+
+.logincont form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.logincont form > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logincont input[type="submit"]{
+    background-color: #88DB56;
+    color: #2b2f32;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.logincont img {
+    max-width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.info img {
+    width: 100%;
+    width: 900px;
+    height: 650px;
+    margin-bottom: 20px;
+    object-fit: contain;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
